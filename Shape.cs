@@ -2,22 +2,19 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
+using static System.Windows.Forms.AxHost;
 
 namespace GraphicEditor
 {
-    // Klasa bazowa dla wszystkich kształtów
     [Serializable]
+    [JsonConverter(typeof(ShapeConverter))]
     public abstract class Shape
     {
         public String Type { get; set; }
         public Point StartPoint { get; set; }
         public Point EndPoint { get; set; }
-        public Shape()
-        {
-            // Możesz zainicjalizować wartości domyślne, jeśli to konieczne
-        }
-
 
         // Abstract methods that must be implemented by derived shapes
         public abstract void Draw(Graphics g);

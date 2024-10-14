@@ -213,9 +213,9 @@
             // 
             // LoadButton
             // 
-            LoadButton.Location = new Point(97, 0);
+            LoadButton.Location = new Point(97, 2);
             LoadButton.Name = "LoadButton";
-            LoadButton.Size = new Size(94, 32);
+            LoadButton.Size = new Size(94, 30);
             LoadButton.TabIndex = 1;
             LoadButton.Text = "Load";
             LoadButton.UseVisualStyleBackColor = true;
@@ -223,7 +223,7 @@
             // 
             // SaveButton
             // 
-            SaveButton.Location = new Point(3, 3);
+            SaveButton.Location = new Point(3, 2);
             SaveButton.Name = "SaveButton";
             SaveButton.Size = new Size(94, 29);
             SaveButton.TabIndex = 0;
@@ -271,7 +271,7 @@
             // 
             // SelectButton
             // 
-            SelectButton.Location = new Point(112, -3);
+            SelectButton.Location = new Point(112, -1);
             SelectButton.Name = "SelectButton";
             SelectButton.Size = new Size(94, 29);
             SelectButton.TabIndex = 21;
