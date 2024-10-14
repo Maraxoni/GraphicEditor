@@ -111,6 +111,7 @@
             First_Point_x_textBox.Name = "First_Point_x_textBox";
             First_Point_x_textBox.Size = new Size(72, 27);
             First_Point_x_textBox.TabIndex = 5;
+            First_Point_x_textBox.TextChanged += First_Point_x_textBox_TextChanged;
             // 
             // DrawButton
             // 
@@ -146,6 +147,7 @@
             Second_Point_x_textBox.Name = "Second_Point_x_textBox";
             Second_Point_x_textBox.Size = new Size(73, 27);
             Second_Point_x_textBox.TabIndex = 9;
+            Second_Point_x_textBox.TextChanged += Second_Point_x_textBox_TextChanged;
             // 
             // First_Point_y_textBox
             // 
@@ -153,6 +155,7 @@
             First_Point_y_textBox.Name = "First_Point_y_textBox";
             First_Point_y_textBox.Size = new Size(72, 27);
             First_Point_y_textBox.TabIndex = 10;
+            First_Point_y_textBox.TextChanged += First_Point_y_textBox_TextChanged;
             // 
             // Second_Point_y_textBox
             // 
@@ -160,6 +163,7 @@
             Second_Point_y_textBox.Name = "Second_Point_y_textBox";
             Second_Point_y_textBox.Size = new Size(72, 27);
             Second_Point_y_textBox.TabIndex = 11;
+            Second_Point_y_textBox.TextChanged += Second_Point_y_textBox_TextChanged;
             // 
             // First_Point_x_label
             // 
